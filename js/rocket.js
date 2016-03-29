@@ -7,6 +7,11 @@ var changeState = function (state) {
     countdownNumber = 10;
     document.getElementById('countdown').innerHTML = countdownNumber;
 
+    if (state == 1) {
+        document.getElementById('nervous').className = 'nervous';
+        document.getElementById('cant-wait').className = 'cant-wait';
+    }
+
     if (state == 2) {
         timer = setInterval(function () {
             countdownNumber = countdownNumber - 1;
@@ -38,7 +43,7 @@ var changeState = function (state) {
                 var randomNumber = Math.round(Math.random()*10);
                 // success
                 console.log('randomNumber: ', randomNumber)
-                if (randomNumber > 4) {
+                if (randomNumber > 5) {
                     changeState(4);
                  
                 } else {
