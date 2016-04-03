@@ -1,11 +1,11 @@
 body {
-    font-family: 'helvetica', 'arial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .left {
-    background-color: aquamarine;
+    background-color: #33cccc;
     position: fixed;
-    width: 35%;
+    width: 45%;
     height: 100%;
     top: 0;
     left: 0;
@@ -29,15 +29,14 @@ a.button {
 }
 
 a:hover{
-    background-color: lightgrey;
-    color: darkblue;
+    background-color: #e6e6e6;
 }
 
 
 .right{
-    background-color: aliceblue;
+    background-color: #e6f3ff;
     position: fixed;
-    width: 65%;
+    width: 55%;
     height: 100%;
     top: 0;
     right: 0;
@@ -56,10 +55,10 @@ a:hover{
     position: absolute;
     bottom: 150px;
     left: 50%;
-    background: url('../img/nervous-v2.png');
+    background: url('../img/nervous-v3.png');
     width: 300px;
     height: 200px;
-    margin-left: -400px;
+    margin-left: -325px;
     display: none;
 }
 
@@ -71,10 +70,10 @@ a:hover{
     position: absolute;
     bottom: 160px;
     left: 50%;
-    background: url('../img/cant-wait-v2.png');
+    background: url('../img/cant-wait-v3.png');
     width: 300px;
     height: 200px;
-    margin-left: 50px;
+    /*margin-left: 150px;*/
     display: none;
 }
 
@@ -89,24 +88,24 @@ a:hover{
     width: 250px;
     height: 333px;
     margin-left: -135px;
-    background: url('../img/rocket-state1-v2.png') no-repeat 0 0;
+    background: url('../img/rocket-state1-v4.png') no-repeat 0 0;
     transition: bottom 10000ms;
 }
 
 /* rocket bg image */
 body.body-state2 .rocket{
-    background-image: url('../img/rocket-state2-v2.gif');
+    background-image: url('../img/rocket-state2-v3.gif');
 }
 
 body.body-state3 .rocket,
 body.body-state4 .rocket{
-    background-image: url('../img/rocket-state3-v2.gif');
+    background-image: url('../img/rocket-state3-v3.gif');
 }
 
 body.body-state5 .rocket{
-    background-image: url('../img/boom-v3.png');
+    background-image: url('../img/boom-v5.png');
     width: 300px;
-    height: 200px;
+    height: 300px;
     margin-left: -150px;
 }
 
